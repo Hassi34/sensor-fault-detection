@@ -2,11 +2,10 @@ from setuptools import setup,find_packages
 from typing import List
 
 #Declaring variables for setup functions
-PROJECT_NAME="sensor"
-VERSION="0.0.1"
+PROJECT_NAME="kafka"
+VERSION="0.0.3"
 AUTHOR="Hasanain"
-AUTHOR_EMAIL="hasanain@aicaliber.com"
-DESRCIPTION="Sensor fault detection project"
+DESRCIPTION="This is a sample project for kafka producer and consumer"
 
 REQUIREMENT_FILE_NAME="requirements.txt"
 
@@ -27,11 +26,12 @@ def get_requirements_list() -> List[str]:
             requirement_list.remove(HYPHEN_E_DOT)
         return requirement_list
 
+
+
 setup(
 name=PROJECT_NAME,
 version=VERSION,
 author=AUTHOR,
-author_email=AUTHOR_EMAIL,
 description=DESRCIPTION,
 packages=find_packages(), 
 install_requires=get_requirements_list()

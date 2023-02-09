@@ -1,11 +1,9 @@
-pymongo[srv]==4.2.0
+confluent-kafka
+requests
+six
+pandas
+pymongo[srv]==4.1.1
+jsonschema==3.2.0
+dnspython
 python-dotenv
-scikit-learn
-evidently
-imblearn
-dill
-xgboost
-fastapi
-uvicorn
-
 -e .
