@@ -1,2 +1,0 @@
-DATABASE_NAME = "sensor-db"
-COLLECTION_NAME = "car"
