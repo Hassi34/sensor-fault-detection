@@ -1,0 +1,11 @@
+pymongo[srv]==4.2.0
+python-dotenv
+scikit-learn
+evidently
+imblearn
+dill
+xgboost
+fastapi
+uvicorn
+
+-e .
