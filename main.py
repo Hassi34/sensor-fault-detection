@@ -5,7 +5,6 @@ from starlette.responses import RedirectResponse
 from uvicorn import run as app_run
 
 from sensor.constant.application import APP_HOST, APP_PORT
-#from sensor.pipeline.prediction_pipeline import PredictionPipeline
 from sensor.pipeline.training_pipeline import TrainPipeline
 from sensor.ml.model.estimator import ModelResolver, TargetValueMapping
 from sensor.utils.main_utils import load_object
