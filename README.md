@@ -1,5 +1,27 @@
-# Sensor-Fault-Detection
+<p align="center">
+    <b>
+        <h1 align="center">Sensor Fault Detection</h1>
+    </b>
+</p>
+<p align="center">
+<a href="https://github.com/Hassi34/sensor-fault-detection">
+    <img src="https://readme-typing-svg.demolab.com?font=Georgia&c=g&size=18&duration=3000&pause=6000&multiline=True&center=true&width=800&height=40&lines= Sensor fault detection from live streaming data with MLOps standard practices;" alt="Typing SVG" />
+</a>
+</p>
+<p align="center">
+<a href="https://github.com/Hassi34/sensor-fault-detection">
+    <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=18&duration=2000&pause=1500&multiline=False&color=10D736FF&center=true&width=400&height=40&lines=AI+%7C+Live Streaming Data%7C+Kafka%7C+AWS%7C+MLOps;Python+%7C+3.7+%7C+3.8+%7C+3.9+%7C+3.10;REST API+%7CFastAPI+%7C+Docker+%7CMongoDB+%7CAWS;" alt="Typing SVG" />
+</a>
+</p>
 
+<p align="center">
+    <a href="https://www.python.org/downloads/">
+        <img alt="License" src="https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-g.svg">
+    </a>
+
+### Important Links:
+[Streaming Data pipeline](https://github.com/Hassi34/sensor-fault-detection/tree/streaming)<br>
+[Project Notebooks](https://github.com/Hassi34/sensor-fault-detection/tree/notebooks)
 ### Problem Statement
 The Air Pressure System (APS) is a critical component of a heavy-duty vehicle that uses compressed air to force a piston to provide pressure to the brake pads, slowing the vehicle down. The benefits of using an APS instead of a hydraulic system are the easy availability and long-term sustainability of natural air.
 
@@ -104,3 +126,12 @@ docker build --build-arg AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID> --build-arg AWS_S
 ```
 docker run -d -p 8080:8080 <IMAGE_NAME>
 ```
+#### **Thank you for visiting 🙏 I hope you find this project useful**<br><br>
+
+#### **📃 License**
+[MIT][license] © [Hasanain][website]
+
+[license]: hhttps://github.com/Hassi34/sensor-fault-detection/blob/main/LICENSE
+[website]: https://hasanain.aicaliber.com
+
+Let's connect on **[``LinkedIn``](https://www.linkedin.com/in/hasanain-mehmood)** <br>
